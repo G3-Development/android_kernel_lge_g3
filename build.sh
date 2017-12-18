@@ -456,7 +456,7 @@ cd /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-VS985
 zip -r9 Moun_Kernel_V3.0-VS985.zip * -x Moun_Kernel_V3.0-VS985.zip
 
 cd /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-dualsim
-zip -r9 Moun_Kernel_V3.0-dualsim.zip * -x Moun_Kernel_V3.0-V1.0-dualsim.zip 
+zip -r9 Moun_Kernel_V3.0-dualsim.zip * -x Moun_Kernel_V3.0-dualsim.zip 
 
 echo " uploading to Mega "; 
 
