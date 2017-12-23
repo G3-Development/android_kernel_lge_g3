@@ -1,0 +1,10 @@
+service ak-post-boot /system/bin/sh /sbin/ak-post_boot.sh
+    class late_start
+    user root
+    group root
+    disabled
+    seclabel u:r:init:s0
+    oneshot
+
+on property:sys.boot_completed=1
+    start ak-post-boot
