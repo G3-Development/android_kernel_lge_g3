@@ -3757,5 +3757,3 @@ CONFIG_NLATTR=y
 # CONFIG_CORDIC is not set
 CONFIG_QMI_ENCDEC=y
 # CONFIG_QMI_ENCDEC_DEBUG is not set
-##############PLUGINS##################
-CONFIG_CPU_VOLTAGE_TABLE=y
