@@ -3003,11 +3003,11 @@ static void bq24296_monitor_batt_temp(struct work_struct *work)
 	struct charging_rsp res;
 	bool is_changed = false;
 	union power_supply_propval ret = {0,};
-#ifdef CONFIG_CHARGER_UNIFIED_WLC
-	union power_supply_propval wlc_ret = {0,};
-	int wlc_thermal_mitigation = -1;
-	int wlc_online = -1;
-#endif
+//#ifdef CONFIG_CHARGER_UNIFIED_WLC
+//	union power_supply_propval wlc_ret = {0,};
+//	int wlc_thermal_mitigation = -1;
+//	int wlc_online = -1;
+//#endif
 	NULL_CHECK_VOID(chip);
 	if (chip->chg_timeout) {
 		int ret;
